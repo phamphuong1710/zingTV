@@ -1,0 +1,189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top-wrap{
+	width: 100%;
+	
+}
+.header{
+	height: 40px;
+	width: 100%;
+	background-color: #1c1c1c;
+}
+.header .logo{
+	float:left;
+	margin-left: 65px;
+}
+.header .search{
+	float:left;
+	width:80% ;
+	height: 40px;
+}
+.header .search form{
+	float:left ;
+	width: 37%;
+	margin-top: 6px;
+	height: 100%;
+	border-radius: 20%;
+}
+.header .search .tbsearch{
+	float: left;
+	border: none;
+	width: 89%;
+	height: 28px;
+	border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.header .search .btnsearch{
+	float: left;
+	width: 10%;
+	border: none;
+	height: 28px;
+	border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #7ebd03;
+    color: #fff;
+}
+.header .search .tag-page{
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	height: 40px;
+	width: 17%;
+	color: red;
+}
+.header .search .tag-page li{
+	float: left;
+	list-style-type: none;
+	padding-top: 10px;
+	height: 100%;
+	text-align: center;
+	width: 25%;
+
+}
+.header .search .tag-page li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 11px 12px;
+}
+.header .search .tag-page li a:hover{
+	color: #7ebd03;
+	background-color: #000;
+}
+.header .search .tag-page .selected{
+	background-color: #000;
+}
+.header .search .tag-page .selected a{
+	color: #7ebd03;
+	
+}
+.header .search .zlogin{
+	float: right;
+	margin-top: 10px;
+	color: #fff;
+}
+.header .search .zlogin a{
+	text-decoration: none;
+	color: #fff;
+}
+.header .search .off-ads{
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+.header .search .off-ads a{
+	text-decoration: none;
+	color: #fff;
+}
+/* nav*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.main-menu{
+	background-color: #f7f7f7;
+	width: 100%;
+	height: 35px;
+}
+.main-menu ul li span 
+{
+	float: left;
+}
+.main-menu ul {
+	float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* overflow: hidden;*/
+    height: 100%;
+}    
+
+.main-menu .dropdown {
+    float: left;
+    height: 100%;
+}
+
+.main-menu .dropdown a, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.main-menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: #fff;
+}
+
+.main-menu .dropdown {
+    display: inline-block;
+    position: relative;
+}
+.main-menu .dropdown .fa{
+	padding-left: 65px;
+	padding-top: 10px;
+	padding-right: 15px;
+}
+.main-menu .sub-nav {
+    display: none;
+    position: absolute;
+    border-top: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7;
+    background-color: #fff;
+    
+}
+.main-menu .sub-nav .sub-col{
+	float: left;	
+}
+.main-menu .sub-nav .sub-col li{
+	text-align: center;
+	border-bottom: 1px solid #f7f7f7;
+	border-right:  1px solid #f7f7f7;
+}
+.main-menu .sub-nav .sub-col a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.main-menu .sub-nav .sub-col a:hover {
+	background-color: #7ebd03;
+	color: #fff;
+}
+
+.main-menu .dropdown:hover .sub-nav {
+    display: block;
+}
+.main-menu .phim-truyen-hinh{
+	width: 613px;
+}
+
+.main-menu .tv-show{
+	width: 278px;
+}
+.main-menu .hoat-hinh{
+	width: 645px;
+}
+.main-menu .danet-logo{
+	float: left;
+}

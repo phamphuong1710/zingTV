@@ -1,0 +1,44 @@
+.newVideo{
+	
+	height: 350px;
+	width: 100%;
+	margin-left: 65px;
+}
+.item1 , .item{
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+}
+.item1{
+	width: 38%;
+	height: 80%;
+}
+.item{
+	width: 18%;
+	height: 38%;
+	
+}
+.item1 a img{
+	height: 100%;
+	width: 95%;
+}
+.item a img{
+	height: 100%;
+	width: 95%;
+}
+
+.item1 a .name, .item a .name{
+	position: absolute;
+	text-align: center;
+    font-size: 12px;
+    bottom: 0;
+}
+.item1 a, .item a{
+	text-decoration: none;
+}
+.item1 a p, .item a p{
+	color: white;
+}
+.item1 a span, .item a span{
+	color: #7ebd03;
+}
